@@ -15,12 +15,14 @@ for (lower_case = 'a'; lower_case <= '2'; lower_case++)
 putchar(lower_case);
 }
 
+
 for (upper_case = 'A'; upper_case <= '2'; upper_case++)
 {
 putchar(upper_case);
 }
 
-putchar ('\n');
+
+putchar('\n');
 
 return (0);
 

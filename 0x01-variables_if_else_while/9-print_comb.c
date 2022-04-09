@@ -6,7 +6,6 @@
  * Return: Always 0 (Success/correct)
  */
 int main(void)
-
 {
 int number;
 
@@ -26,5 +25,4 @@ putchar (' ');
 putchar('\n');
 
 return (0);
-
 }

@@ -2,14 +2,14 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success/success)
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
 
 {
 char alphabet;
 
-for (alphabet = 'a'; alphabet <= '2'; alphabet++)
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 putchar(alphabet);
 }

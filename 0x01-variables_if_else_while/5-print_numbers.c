@@ -6,7 +6,7 @@
  * main - entry point
  *
  *Description: Print numbers 0 to 9 on line
- * Return: 0
+ * Return: Always 0 (success/correct)
  */
 int main(void)
 {
@@ -18,5 +18,4 @@ putchar(i);
 printf('\n');
 
 return (0);
-
 }

@@ -5,12 +5,12 @@
  *
  * main - entry point
  *
- *Description: Print numbers 0 to 9 on line
+ * Description: Print numbers 0 to 9 on line
  * Return: Always 0 (success/correct)
  */
 int main(void)
 {
-int i;
+char i;
 
 for (i = '0' ; i <= '9'; ++i)
 putchar(i);

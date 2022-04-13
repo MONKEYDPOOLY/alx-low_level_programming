@@ -17,6 +17,6 @@ else
 {
 for (n = n; n > 98; n--)
 printf("%d, ", n);
-printf("%\n", 98);
+printf("%d\n", 98);
 }
 }

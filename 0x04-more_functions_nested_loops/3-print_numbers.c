@@ -2,18 +2,13 @@
 /**
  * print_numbers - print the numbers zero to nine
  *
- * Return: Always 0 (Success)
+ * Return: 0-9 followed by a new line
  */
 void print_numbers(void)
 {
+	int i;
 
-int i;
-
-i = 0;
-
-for (i = 0; i < 9; i++)
-
-_putchar(i + '0');
-
-_putchar('\n');
+	for (i = 0; i <= 9; i++)
+	_putchar(i + '0');
+	_putchar('\n');
 }

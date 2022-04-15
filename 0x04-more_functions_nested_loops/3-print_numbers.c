@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - print number zero to nine
+ * print_numbers - print the numbers zero to nine
  *
  * Return: Always 0 (Success)
  */
@@ -15,5 +15,5 @@ for (i = 0; i < 10; i++)
 
 _putchar(i + '0');
 
-_putchar ('\n');
+_putchar('\n');
 }
